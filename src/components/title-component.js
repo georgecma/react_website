@@ -15,6 +15,8 @@ class TitleComponent extends React.Component {
 	}
 }
 
+
+
 // Enforces error checking 
 TitleComponent.propTypes = {
 	title:PropTypes.string.isRequired
