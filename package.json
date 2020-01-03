@@ -11,7 +11,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "react-router-dom": "^5.1.2"
   },
   "dependencies": {
     "react": "^16.12.0",
