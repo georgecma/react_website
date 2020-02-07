@@ -1,3 +1,8 @@
 {
-  "about" : "I am learning to be a software engineer. I am currently learning to make webapps with React."
+  'about': "I learned to code in an intro to CS course in freshman year."
+  "I thought it was pretty interesting and now I am graduating as a CS major." 
+  "I learned a lot of theoretical stuff, like algorithms and operating systems." 
+  "Now, I want to put it to practice, so I made some stuff that may help you. ",
+  
+  'home': ""
 }

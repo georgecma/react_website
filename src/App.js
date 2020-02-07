@@ -4,17 +4,25 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 
+/**
+ * 
+ * {!this.props.fullPage && <Nav />} -> cool shit, disables nav when not in fullpage mode 
+ * 
+ * 
+ * 
+ * */
+
+
 class App extends Component {
     render() {
         return (
             <Router>
                 <div>
-                    <h2>My personal website</h2>
                     <nav className="navbar navbar-expand navbar-light bg-light">
                         <ul className="navbar-nav mr-auto">
                             <li><Link to={'/'} className="nav-link"> Home </Link></li>
-                            <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
                             <li><Link to={'/about'} className="nav-link">About</Link></li>
+                            <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
                         </ul>
                     </nav>
                     <hr />

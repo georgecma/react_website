@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.19.0",
+    "flexbox-react": "^4.4.0",
     "parcel": "^1.12.4",
     "react-router-dom": "^5.1.2"
   },
